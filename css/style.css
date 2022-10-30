@@ -103,9 +103,7 @@ color:  #ED8E00;
   animation: rotate infinite 3s ;
 
 }
-.header{
-height: 100vh;
-}
+
 .menu__link:hover.menu__link::after {
 width: 100%;
 }
@@ -118,7 +116,7 @@ width: 100%;
   }
 }
 .banner{
-height:78%;
+height:80vh;
 position: relative;
 background: url(../img/obezyana.png) no-repeat center right/cover;
 z-index: 10;
@@ -202,9 +200,11 @@ align-items: center;
 gap: 30px;
 }
 .card{
-background: url(../img/card1.png) no-repeat center/cover;
+background: url(../img/card1.png) no-repeat top center/cover;
 display: flex;
-max-width: 255px;
+width: 100%;
+max-width: 335px;
+min-height: 255px;
 height: 367px;
 border-radius: 6px;
 flex-direction: column;
