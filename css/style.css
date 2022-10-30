@@ -120,7 +120,7 @@ width: 100%;
 .banner{
 height:80%;
 position: relative;
-background: url(../img/obezyana.png) no-repeat center/cover;
+background: url(../img/obezyana.png) no-repeat center right/cover;
 z-index: 10;
 }
 .banner__abs{
