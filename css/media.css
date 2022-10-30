@@ -3,6 +3,12 @@
   flex-wrap: wrap;
   
 }
+
+}
+@media screen and (max-width:768px) {
+  .trailer__post{
+    width: 100%;
+    }
 }
 
 
