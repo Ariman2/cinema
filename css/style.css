@@ -132,3 +132,47 @@ left: 0;
 top: 0;
 background: rgba(7, 15, 25, 0.75);
 }
+.banner__wrap{
+display: flex;
+align-items: center;
+}
+.banner__desc{
+max-width: 600px;
+width: 100%;
+}
+.banner__h1{
+  font-family: var(--mont);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+color: var(--w);
+  margin-bottom: 30px;
+}
+.banner__p{
+  font-family: var(--mont);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+color: #C8C8C8;
+margin-bottom: 50px;
+}
+.banner__links{
+display: flex;
+align-items: center;
+gap: 30px;
+}
+.btn{
+  font-family: var(--roboto);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 12px;
+color: var(--w);
+background: var(--black);
+border-radius: 4px;
+padding: 17px 47px;
+transition: 0.2s;
+}
+.btn:hover{
+color: var(--bg);
+background: var(--orang);
+}
