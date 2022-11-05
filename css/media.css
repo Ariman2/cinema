@@ -1,7 +1,12 @@
 @media screen and (max-width:1140px) {
 .films__wrap{
   flex-wrap: wrap;
-  
+
+} 
+.ser__wrap{
+flex-direction: column;
+gap: 12px;
+align-items: center;
 }
 .collections__wrap{
 flex-wrap: wrap;
@@ -23,6 +28,10 @@ justify-content: center;
 @media screen and (max-width:640px) {
   .banner__h1{
   font-size: 47px;
+  }
+  .footer__wrap{
+  flex-direction: column;
+  gap: 15px;
   }
 }
 
